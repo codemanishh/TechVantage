@@ -1,0 +1,13 @@
+iframe{
+
+    width:600px;
+    height:315px; 
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+.card-css-1{
+    display:flex;
+    justify-content: center;
+}
