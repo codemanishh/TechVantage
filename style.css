@@ -1,3 +1,4 @@
+
 iframe{
 
     width:600px;
@@ -11,3 +12,50 @@ iframe{
     display:flex;
     justify-content: center;
 }
+
+.video-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 79px;
+}
+.payment-class{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+    margin-bottom: 100px;
+}
+.payment-class-2{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (min-width: 600px){
+.two-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+}
+@media screen and (max-width: 600px){
+.video-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#imga{
+    width:100%;
+}
+.right-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+/* ..................................    */
